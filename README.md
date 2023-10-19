@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Projeto feito com Next.js/TypeScript
+
+Style: Tailwind CSS
+
+Dedicado para fins de Cadastro e Relatório de Atendimento
+Possui autenticação com Firebase e MySQL
+![image](https://github.com/zYasuo/DashboarAtendimentos/assets/87655873/637fc26c-a7b8-44ad-a9e7-232cd8eb7183)
+
+![image](https://github.com/zYasuo/DashboarAtendimentos/assets/87655873/fd3e72c2-75a6-4fc8-bab7-36327480307d)
 
 ## Getting Started
 
