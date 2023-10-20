@@ -31,4 +31,4 @@ const InputPassword: React.FC<InputPasswordProps> = ({ value, isFocused, showPas
     </div>
 );
 
-export default InputPassword;
+export default InputPassword;   

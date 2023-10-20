@@ -53,7 +53,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({
                 </div>
                 <div className="flex justify-around items-center">
                     <GoogleLoginButton />
-                    <GithubLoginButton />
+                    {/* <GithubLoginButton /> */}
                 </div>
 
             </form>
@@ -61,5 +61,3 @@ export const LoginForm: React.FC<LoginFormProps> = ({
         </div>
     );
 };
-
-

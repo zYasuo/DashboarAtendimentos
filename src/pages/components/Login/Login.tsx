@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { LoginForm } from './Form/LoginForm';
-import useLoginActions from '../hooks/form/UseLoginActions';
+import useLoginActions from '../hooks/Auth/form/useLoginActions';
 import LoginLayout from './layout/LoginLayout';
 import { setItem } from '../../utils/localStorage/Storage';
 

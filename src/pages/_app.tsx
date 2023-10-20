@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import setAuthToken from './services/Firebase/Token/TokenFirebase';  // atualize o caminho para apontar para o arquivo configAxios
+import setAuthToken from './services/Firebase/Token/TokenFirebase';
 import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -8,7 +8,9 @@ export default function App({ Component, pageProps }: AppProps) {
     setAuthToken();
   }, []);
 
+
   return (
     <Component {...pageProps} />
+
   );
 }

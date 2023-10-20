@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { authenticateUser } from '../../../services/Firebase/Google/AuthenticationService';
+import { authenticateUser } from '../../../../services/Firebase/Google/AuthenticationService';
 
 type AuthenticationResult = {
     token: string;
